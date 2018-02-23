@@ -1,6 +1,6 @@
 ---
 services: cosmos-db
-platforms: dotnet
+platforms: java
 author: viviswan
 ---
 
