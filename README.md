@@ -1,57 +1,30 @@
-# Project Name
+---
+services: cosmos-db
+platforms: java
+author: viviswan
+---
 
-(short, 1-3 sentenced, description of the project)
+# Using Mongo ReadPreference with Azure Cosmos DB's MongoDB API
+Azure Cosmos DB is a globally distributed multi-model database. One of the supported APIs is the MongoDB API, which provides a document model and support for client drivers in many platforms. This sample shows you how to use MongoDB ReadPreference against Azure Cosmos DB with MongoDB API from a .NET application.
 
-## Features
+## Running this sample
 
-This project framework provides the following features:
+* Before you can run this sample, you must have the following prerequisites:
 
-* Feature 1
-* Feature 2
-* ...
+   * An active Azure account. If you don't have one, you can sign up for a [free account](https://azure.microsoft.com/free/). Alternatively, you can use the [Azure Cosmos DB Emulator](https://docs.microsoft.com/azure/cosmos-db/local-emulator) for this tutorial.
+   * Eclipse Oxygen 
 
-## Getting Started
+* Then, clone this repository.
 
-### Prerequisites
+* Next, substitute the `connectionString`, `readTargetRegion` in *src\main\resources\config* with your Cosmos DB account's values. 
 
-(ideally very short, if any)
+* Run your application.
 
-- OS
-- Library version
-- ...
+## About the code
+The code included in this sample is intended to illustrate using ReadPreference with a Java application that connects to Azure Cosmos DB with the MongoDB API.
 
-### Installation
+## More information
 
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+- [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction)
+- [Azure Cosmos DB : MongoDB API](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction)
+- [MongoDB Java driver](http://mongodb.github.io/mongo-java-driver/)

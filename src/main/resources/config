@@ -1,0 +1,4 @@
+connectionString=
+readTargetRegion=Japan West
+databaseName=testdb
+collectionName=javasample
