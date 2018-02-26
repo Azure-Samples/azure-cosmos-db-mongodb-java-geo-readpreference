@@ -8,14 +8,7 @@
   <packaging>jar</packaging>
 
   <name>cosmos-db-mongodb-geo-readpreference</name>
-  <url>http://maven.apache.org</url>
-  <build>
-    <resources>
-        <resource>
-            <directory>src/main/resources</directory>
-        </resource>
-    </resources>
-  </build>
+  <url>https://azure.microsoft.com/en-us/services/cosmos-db/</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -32,6 +25,6 @@
       <artifactId>mongo-java-driver</artifactId>
       <version>3.2.2</version>
     </dependency>
-    
   </dependencies>
+
 </project>
