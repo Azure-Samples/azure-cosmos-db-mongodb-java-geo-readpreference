@@ -4,8 +4,8 @@ platforms: java
 author: viviswan
 ---
 
-# Using Mongo ReadPreference with Azure Cosmos DB's MongoDB API
-Azure Cosmos DB is a globally distributed multi-model database. One of the supported APIs is the MongoDB API, which provides a document model and support for client drivers in many platforms. This sample shows you how to use MongoDB ReadPreference against Azure Cosmos DB with MongoDB API from a .NET application.
+# Using ReadPreference command with Azure Cosmos DB for MongoDB API
+Azure Cosmos DB is a fully managed globally distributed, multi-model database service, transparently replicating your data across any number of Azure regions. You can elastically scale throughput and storage, and take advantage of fast, single-digit-millisecond data access using the API of your choice backed by 99.999 SLA. This sample shows you how to use ReadPreference command against Azure Cosmos DB for MongoDB API from a Java application.
 
 ## Running this sample
 
@@ -21,10 +21,10 @@ Azure Cosmos DB is a globally distributed multi-model database. One of the suppo
 * Run your application.
 
 ## About the code
-The code included in this sample is intended to illustrate using ReadPreference with a Java application that connects to Azure Cosmos DB with the MongoDB API.
+The code included in this sample is intended to illustrate using ReadPreference with a Java application that connects to Azure Cosmos DB for MongoDB API.
 
 ## More information
 
 - [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction)
-- [Azure Cosmos DB : MongoDB API](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction)
+- [Azure Cosmos DB for MongoDB API](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction)
 - [MongoDB Java driver](http://mongodb.github.io/mongo-java-driver/)

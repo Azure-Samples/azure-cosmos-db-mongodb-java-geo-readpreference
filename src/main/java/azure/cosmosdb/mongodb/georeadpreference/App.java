@@ -1,4 +1,4 @@
-package azure.cosmosdb.mongodb.georeadpreference;
+package azure.cosmosdb.for.mongodb.api.georeadpreference;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
