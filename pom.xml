@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>azure</groupId>
-  <artifactId>cosmos-db-mongodb-geo-readpreference</artifactId>
+  <artifactId>azure-cosmos-db-for-mongodb-api-geo-readpreference</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>cosmos-db-mongodb-geo-readpreference</name>
+  <name>azure-cosmos-db-for-mongodb-api-geo-readpreference</name>
   <url>https://azure.microsoft.com/en-us/services/cosmos-db/</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
